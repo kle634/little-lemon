@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/little-lemon/static/css/main.cff5c3c0.chunk.css",
+    "main.js": "/little-lemon/static/js/main.f87e3f46.chunk.js",
+    "main.js.map": "/little-lemon/static/js/main.f87e3f46.chunk.js.map",
+    "runtime-main.js": "/little-lemon/static/js/runtime-main.75026e10.js",
+    "runtime-main.js.map": "/little-lemon/static/js/runtime-main.75026e10.js.map",
+    "static/js/2.9ee6fc13.chunk.js": "/little-lemon/static/js/2.9ee6fc13.chunk.js",
+    "static/js/2.9ee6fc13.chunk.js.map": "/little-lemon/static/js/2.9ee6fc13.chunk.js.map",
+    "static/js/3.a802ad05.chunk.js": "/little-lemon/static/js/3.a802ad05.chunk.js",
+    "static/js/3.a802ad05.chunk.js.map": "/little-lemon/static/js/3.a802ad05.chunk.js.map",
+    "index.html": "/little-lemon/index.html",
+    "precache-manifest.a5b309e92c3bd04c957513791a925f59.js": "/little-lemon/precache-manifest.a5b309e92c3bd04c957513791a925f59.js",
+    "service-worker.js": "/little-lemon/service-worker.js",
+    "static/css/main.cff5c3c0.chunk.css.map": "/little-lemon/static/css/main.cff5c3c0.chunk.css.map",
+    "static/js/2.9ee6fc13.chunk.js.LICENSE.txt": "/little-lemon/static/js/2.9ee6fc13.chunk.js.LICENSE.txt",
+    "static/media/Baklava.webp": "/little-lemon/static/media/Baklava.cf6501a3.webp",
+    "static/media/Beef-Gyro-1.jpg": "/little-lemon/static/media/Beef-Gyro-1.f31de76d.jpg",
+    "static/media/Bruschetta_02.jpg.webp": "/little-lemon/static/media/Bruschetta_02.jpg.daba418e.webp",
+    "static/media/Logo.svg": "/little-lemon/static/media/Logo.318b8dc4.svg",
+    "static/media/Pistachio-Gelato-5.jpg": "/little-lemon/static/media/Pistachio-Gelato-5.0597a0a5.jpg",
+    "static/media/bruchetta.svg": "/little-lemon/static/media/bruchetta.b7931ef9.svg",
+    "static/media/chicken_02.webp": "/little-lemon/static/media/chicken_02.8e8295b1.webp",
+    "static/media/greek salad.jpg": "/little-lemon/static/media/greek salad.0110545b.jpg",
+    "static/media/hummus_02.jpg": "/little-lemon/static/media/hummus_02.9f76c60a.jpg",
+    "static/media/moussaka.jpg": "/little-lemon/static/media/moussaka.35e576d2.jpg",
+    "static/media/octopus.jpg": "/little-lemon/static/media/octopus.6d770489.jpg",
+    "static/media/orange-cake.jpg": "/little-lemon/static/media/orange-cake.ed3d2c3e.jpg",
+    "static/media/restauranfood.jpg": "/little-lemon/static/media/restauranfood.52bd44af.jpg",
+    "static/media/restaurant chef B.jpg": "/little-lemon/static/media/restaurant chef B.bec110ee.jpg",
+    "static/media/restaurant.jpg": "/little-lemon/static/media/restaurant.fa402025.jpg",
+    "static/media/tzatziki.jpg": "/little-lemon/static/media/tzatziki.c1a7862b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75026e10.js",
+    "static/js/2.9ee6fc13.chunk.js",
+    "static/css/main.cff5c3c0.chunk.css",
+    "static/js/main.f87e3f46.chunk.js"
+  ]
+}
