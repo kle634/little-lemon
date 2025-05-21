@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2% 5% 0 5%;
 }
 
 #specials {
@@ -23,7 +24,6 @@
 }
 
 .btn-specials:hover {
-  /* border: 3px solid rgba(0, 0, 0, 0.24); */
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
 }
 
@@ -38,28 +38,27 @@
   background-color: lightgray;
   margin: 50px 0px 50px 0px;
   border-radius: 10px 10px 0px 0px;
-  height: 450px;
+  height: 460px;
   width: 220px;
-  /* display: flex; */
-}
-
-#img-salad {
-  /* all: revert; */
-  height: 33%;
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .card-body {
   display: flex;
   flex-wrap: wrap;
-  /* height: 100%; */
 }
 
 .card-title {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  font-size: 18px;
   margin: 20px 0px 30px 0px;
+}
+
+.card-text {
+  font-family: sans-serif;
+  color: black;
+  padding: 0px 20px 0px 20px;
+  height: 140px;
 }
 
 #name {
@@ -73,32 +72,29 @@
   color: orange;
 }
 
-.card-text {
-  font-family: sans-serif;
-  color: black;
-  padding: 0px 20px 20px 20px;
-  height: 150px;
+#img-salad {
+  height: 33%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #img-bruchetta {
-  all: revert;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
 
 #img-dessert {
-  /* all: revert; */
   width: 100%;
   height: 33%;
   border-radius: 10px 10px 0px 0px;
 }
 
 .btn-highlights {
-  margin-left: 10px;
   background: lightgray;
   border: none;
   font-weight: bold;
   font-size: 14px;
+  padding-left: 20px;
 }
 
 .btn-highlights:hover {
@@ -106,31 +102,70 @@
 }
 
 @media screen and (max-width: 1050px) {
-  .highlights-sub {
-    display: flex;
-    justify-content: start;
-  }
-
-  #specials {
-    margin-left: 30px;
-    margin-right: 40px;
-  }
-
   .cards-grid {
-    margin-left: 30px;
-    margin-right: 30px;
-    gap: auto;
+    gap: 20px;
   }
 
-  .greek-salad {
-    margin-bottom: 0px;
-  }
-
-  .bruchetta {
-    margin-bottom: 0px;
+  .card {
+    margin: 20px 0px 0px 0px;
   }
 
   .lemon-dessert {
-    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #specials {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .highlights-sub {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin: 35px 5% 40px 5%;
+  }
+
+  #specials {
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
+  .btn-specials {
+    margin-right: 5%;
+  }
+
+  .cards-grid {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    height: 230px;
+    width: 390px;
+  }
+
+  .card-text {
+    padding: 0px 10px 15px 20px;
+    font-size: 15px;
+    height: 50px;
+  }
+
+  #name {
+    margin-left: 20px;
+  }
+
+  #price {
+    padding-left: 40%;
+  }
+
+  #img-salad,
+  #img-bruchetta,
+  #img-dessert {
+    display: none;
   }
 }

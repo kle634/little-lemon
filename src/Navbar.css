@@ -14,21 +14,64 @@ a {
 
 a:hover {
   font-weight: bold;
-  /* color: white;
-  background-color: #495e57; */
 }
-
-/* #logo {
-  align-self: end;
-  margin-left: 30px;
-} */
 
 #nav {
   margin-left: 10%;
 }
 
-@media screen and (max-width: 1000px) {
-  .App {
-    justify-content: start;
+.dropdown {
+  display: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  #nav {
+    display: none;
+  }
+
+  /* Dropdown container - needed to position the dropdown content */
+  .dropdown {
+    display: block;
+    margin-left: 40%;
+    margin-right: 30px;
+  }
+
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    all: none;
+    font-size: 18px;
+    background: #f4ce14;
+    color: black;
+    padding: 8px 10px;
+    font-family: inherit;
+    border-radius: 8px;
+    border: none;
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: #495e57;
+    min-width: 138px;
+    z-index: 1;
+    right: 0;
+  }
+
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    margin: 12px 16px;
+    display: block;
+    text-align: left;
+  }
+
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 }

@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <nav className="App">
       <div id="logo">
-        <img src={logo} alt="" />
+        <a href="/">
+          <img src={logo} alt="" />
+        </a>
       </div>
       <div id="nav">
         <Link to="/" style={{ marginRight: "40px" }}>
@@ -19,8 +21,19 @@ function Navbar() {
           Reservations
         </Link>
         <Link to="/order" style={{ marginRight: "40px" }}>
-          OrderOnline
+          Order Online
         </Link>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Menu
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/">Home</a>
+          <a href="/menu">Menu</a>
+          <a href="/reservations">Reservations</a>
+        </div>
       </div>
     </nav>
   );

@@ -7,9 +7,6 @@
 }
 
 #menu-heading1 {
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", */
-  /* "Lucida Sans", Arial, sans-serif; */
-  /* font-weight: 30px; */
   font-size: 20px;
   color: #495e57;
   padding-top: 20px;
@@ -33,23 +30,24 @@
 }
 
 #menu-img {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   margin-top: 20px;
   margin-right: 1vw;
-  /* margin-left: 5vw; */
   margin-left: 30px;
   object-fit: cover;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 450px) {
+  .menu {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
   #menu-img {
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
-    margin-right: 1vw;
-    margin-left: 5vw;
-    /* margin-left: 30px; */
-    object-fit: cover;
+    height: 35vw;
+    width: 37vw;
+    margin-left: 30px;
   }
 }

@@ -7,15 +7,12 @@
   justify-content: center;
   justify-items: center;
   background-color: #495e57;
-  /* align-items: center; */
 }
 
 #res-title {
   /* all: none; */
   color: #495e57;
   font-size: 25px;
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", */
-  /* "Lucida Sans", Arial, sans-serif; */
   background-color: #f4ce14;
   width: 70%;
   height: 30px;
@@ -29,7 +26,6 @@
 .res-form {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  /* grid-template-rows: 100px; */
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 20px;
@@ -45,19 +41,15 @@ label {
 }
 
 input {
-  height: 15px;
+  height: 20px;
   width: 160px;
   margin-right: 50px;
   margin-top: 20px;
-  /* align-self: center; */
-  /* align-content: center; */
 }
 
 select {
   margin-top: 20px;
   width: 160px;
-  /* align-self: center; */
-  /* height: 15px; */
 }
 
 #res-submit {
@@ -84,7 +76,48 @@ select {
 #chef-img,
 #seating-img {
   height: 15vw;
-  margin-top: 20px;
-  margin-right: 3vw;
-  margin-left: 3vw;
+  margin: 20px 3vw 50px 3vw;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .res-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  #res-title {
+    margin-bottom: 10px;
+  }
+
+  label {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+
+  input {
+    height: 30px;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 5px;
+    align-self: center;
+  }
+
+  select {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  #cake-img {
+    display: none;
+  }
+
+  #chef-img,
+  #seating-img {
+    height: 24vw;
+    margin-left: 1px;
+    margin-bottom: 40px;
+  }
 }
