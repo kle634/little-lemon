@@ -1,6 +1,5 @@
 .res-main {
   display: grid;
-  /* grid-template-columns: minmax(auto, 2000px); */
   grid-template-rows: auto auto auto;
   margin-left: 40px;
   margin-right: 40px;

@@ -1,10 +1,8 @@
-// import  './Reservations.css';
 import React from "react";
 import { submitAPI } from "../api.js";
 
 function submitForm(formData) {
   if (submitAPI(formData)) {
-    // console.log(formData.get("name"));
     return true;
   }
 }

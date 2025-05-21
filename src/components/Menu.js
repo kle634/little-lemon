@@ -1,3 +1,4 @@
+import React from "react";
 import "./Menu.css";
 import bruschetta from "../icons_assets/Bruschetta_02.jpg.webp";
 import tzatziki from "../icons_assets/tzatziki.jpg";

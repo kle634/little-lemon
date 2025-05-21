@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "./icons_assets/Logo.svg";
@@ -6,7 +7,7 @@ function Navbar() {
   return (
     <nav className="App">
       <div id="logo">
-        <a href="/">
+        <a href="./index.html">
           <img src={logo} alt="" />
         </a>
       </div>
@@ -30,9 +31,9 @@ function Navbar() {
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="/">Home</a>
-          <a href="/menu">Menu</a>
-          <a href="/reservations">Reservations</a>
+          <Link to="/">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/reservations">Reservations</Link>
         </div>
       </div>
     </nav>

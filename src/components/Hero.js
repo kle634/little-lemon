@@ -1,4 +1,4 @@
-// import Button from 'react-bootstrap/Button';
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Hero.css";
 import pic from "../icons_assets/restauranfood.jpg";
