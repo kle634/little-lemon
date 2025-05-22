@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/little-lemon/static/css/main.cff5c3c0.chunk.css",
-    "main.js": "/little-lemon/static/js/main.f87e3f46.chunk.js",
-    "main.js.map": "/little-lemon/static/js/main.f87e3f46.chunk.js.map",
+    "main.css": "/little-lemon/static/css/main.e4f165d3.chunk.css",
+    "main.js": "/little-lemon/static/js/main.352b7895.chunk.js",
+    "main.js.map": "/little-lemon/static/js/main.352b7895.chunk.js.map",
     "runtime-main.js": "/little-lemon/static/js/runtime-main.75026e10.js",
     "runtime-main.js.map": "/little-lemon/static/js/runtime-main.75026e10.js.map",
-    "static/js/2.9ee6fc13.chunk.js": "/little-lemon/static/js/2.9ee6fc13.chunk.js",
-    "static/js/2.9ee6fc13.chunk.js.map": "/little-lemon/static/js/2.9ee6fc13.chunk.js.map",
+    "static/js/2.54a93078.chunk.js": "/little-lemon/static/js/2.54a93078.chunk.js",
+    "static/js/2.54a93078.chunk.js.map": "/little-lemon/static/js/2.54a93078.chunk.js.map",
     "static/js/3.a802ad05.chunk.js": "/little-lemon/static/js/3.a802ad05.chunk.js",
     "static/js/3.a802ad05.chunk.js.map": "/little-lemon/static/js/3.a802ad05.chunk.js.map",
     "index.html": "/little-lemon/index.html",
-    "precache-manifest.a5b309e92c3bd04c957513791a925f59.js": "/little-lemon/precache-manifest.a5b309e92c3bd04c957513791a925f59.js",
+    "precache-manifest.4592a479da58e26f1ba4d74a00f24e76.js": "/little-lemon/precache-manifest.4592a479da58e26f1ba4d74a00f24e76.js",
     "service-worker.js": "/little-lemon/service-worker.js",
-    "static/css/main.cff5c3c0.chunk.css.map": "/little-lemon/static/css/main.cff5c3c0.chunk.css.map",
-    "static/js/2.9ee6fc13.chunk.js.LICENSE.txt": "/little-lemon/static/js/2.9ee6fc13.chunk.js.LICENSE.txt",
+    "static/css/main.e4f165d3.chunk.css.map": "/little-lemon/static/css/main.e4f165d3.chunk.css.map",
+    "static/js/2.54a93078.chunk.js.LICENSE.txt": "/little-lemon/static/js/2.54a93078.chunk.js.LICENSE.txt",
     "static/media/Baklava.webp": "/little-lemon/static/media/Baklava.cf6501a3.webp",
     "static/media/Beef-Gyro-1.jpg": "/little-lemon/static/media/Beef-Gyro-1.f31de76d.jpg",
     "static/media/Bruschetta_02.jpg.webp": "/little-lemon/static/media/Bruschetta_02.jpg.daba418e.webp",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.75026e10.js",
-    "static/js/2.9ee6fc13.chunk.js",
-    "static/css/main.cff5c3c0.chunk.css",
-    "static/js/main.f87e3f46.chunk.js"
+    "static/js/2.54a93078.chunk.js",
+    "static/css/main.e4f165d3.chunk.css",
+    "static/js/main.352b7895.chunk.js"
   ]
 }
