@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className="App">
       <div id="logo">
-        <a href="./index.html">
-          <img src={logo} alt="" />
-        </a>
+        <Link to="/">
+          <img src={logo} alt="Home" />
+        </Link>
       </div>
       <div id="nav">
         <Link to="/" style={{ marginRight: "40px" }}>
